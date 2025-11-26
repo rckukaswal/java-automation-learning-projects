@@ -1,9 +1,30 @@
-# Auto detect text files and perform LF normalization
-* text=auto
-/bin/
-/target/
-/.settings/
-/.classpath
-/.project
-*.iml
+##############################
+# Java + Maven + IDE Ignore #
+##############################
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
 .idea/
+*.iml
+
+# VS Code
+.vscode/
+
+# Maven target folder
+target/
+**/target/
+
+# Java build folders
+bin/
+out/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
