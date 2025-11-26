@@ -1,0 +1,33 @@
+##############################
+# GLOBAL IGNORE – JAVA PROJECTS
+##############################
+
+# ---- IDE SPECIFIC (ECLIPSE) ----
+**/.classpath
+**/.project
+**/.settings/
+
+# ---- INTELLIJ IDEA ----
+**/.idea/
+**/*.iml
+
+# ---- BUILD FOLDERS ----
+**/bin/
+**/target/
+**/out/
+
+# ---- MAVEN ----
+**/target/
+**/surefire-reports/
+**/maven-status/
+**/maven-archiver/
+
+# ---- LOG FILES ----
+*.log
+
+# ---- OS FILES ----
+.DS_Store
+Thumbs.db
+
+# ---- JAVA ----
+*.class
