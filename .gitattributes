@@ -1,30 +1,8 @@
-##############################
-# Java + Maven + IDE Ignore #
-##############################
-
-# Eclipse
-.classpath
-.project
-.settings/
-
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# VS Code
-.vscode/
-
-# Maven target folder
-target/
+# Ignore all IDE and build files recursively
+**/.classpath
+**/.project
+**/.settings/
+**/*.iml
+**/.idea/
+**/bin/
 **/target/
-
-# Java build folders
-bin/
-out/
-
-# Logs
-*.log
-
-# OS files
-.DS_Store
-Thumbs.db
